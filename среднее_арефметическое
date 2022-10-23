@@ -4,15 +4,16 @@ using namespace std;
 int main()
 {
 
-	int N, count = 0, Summ = 0;
+	int N, count = 0, Summ = 0, count_1 = 0;
 	cin >> count;
 	 
 	for (int i = 0; i < count; i++) {
 
 		cin >> N;
 		Summ += N;
+		count_1 += 1;
 	}
 
-	cout << Summ;
+	cout << (float)Summ / count_1;
 
 }
